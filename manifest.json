@@ -1,0 +1,10 @@
+{
+  "name": "API Monitor Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["webRequest", "tabs", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
